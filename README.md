@@ -1,2 +1,2 @@
-# fuggvenyek
+# Függvenyek
 Feladatok C++ függvények írásából
