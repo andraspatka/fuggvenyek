@@ -1,7 +1,6 @@
 #include <iostream>
 #include <windows.h>
 
-#define TEST_KERULET 0
 #define TEST_MAXIMUM 0
 #define TEST_MAX_MIN 0
 #define TEST_ATALAKIT_INCH_CM 0
@@ -32,18 +31,7 @@ int max_min(int a, int b, bool is_max)
 }
 
 /**
- * 2. Írjatok egy olyan függvényt, amely paraméterként megkapja egy téglalap hosszát és szélességét és
- * visszatéríti a téglalap kerületét. A hossz és a szélesség méterben van megadva és nem lehet több, mint 10000.
- * pld. Ha hossz=10 és szelesseg=4, akkor a visszatérítési érték 28.
- */
-unsigned int kerulet(unsigned int hossz, unsigned int szelesseg)
-{
-    /// Implementációt ide
-    return 0;
-}
-
-/**
- * 3. Egy amerikai barátotoknak nagy szenvedélye a pillangógyűjtés.
+ * 2. Egy amerikai barátotoknak nagy szenvedélye a pillangógyűjtés.
  * Rendszeresen megméri az általa megfogott pillangók szárnyainak a szélességét.
  * Szeretnétek elemezni ezeket a méréseket, viszont a barátotok ezt mind hüvelykben mérte,
  * nektek centiméterben kellenek a mérések. Írjatok egy függvényt amely paraméterként megkapja a méréseket
@@ -55,7 +43,7 @@ void atalakit_inch_cm(float t[], int n)
 }
 
 /**
- * 4. Egy szupermarket-lánc igazgatója megkérte a csapatotokat arra,
+ * 3. Egy szupermarket-lánc igazgatója megkérte a csapatotokat arra,
  * hogy írjatok neki egy programot amely számontartja, hogy naponta hány ember lép be a szupermarketbe.
  * Ugyanakkor minden tizedik belépőnek adjon 5 százalék kedvezményt.
  * Rátok maradt az az alfeladat, hogy egy olyan függvényt megírjatok,
@@ -68,7 +56,7 @@ unsigned int belep()
 }
 
 /**
- * 5. Írjatok egy olyan függvényt, amely a bemeneti egész számokat tartalmazó tömb elemei közül visszaadja
+ * 4. Írjatok egy olyan függvényt, amely a bemeneti egész számokat tartalmazó tömb elemei közül visszaadja
  * a legnagyobb elem értékét és indexét.
  */
 void tomb_max(int t[], int n, int &max_val, int &max_idx)
@@ -77,7 +65,7 @@ void tomb_max(int t[], int n, int &max_val, int &max_idx)
 }
 
 /**
- * 6. A suma alprogramnak két paramétere van:
+ * 5. A suma alprogramnak két paramétere van:
  *    - n, amelyen keresztül egy természetes számot kap a [0, 10^9] intervallumból
  *    - s, amelyen keresztül visszaadja az egymástól különböző páratlan számjegyek összegét.
  *

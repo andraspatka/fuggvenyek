@@ -1,7 +1,6 @@
 #include <iostream>
 #include <windows.h>
 
-#define TEST_KERULET 0
 #define TEST_MAXIMUM 0
 #define TEST_MAX_MIN 0
 #define TEST_ATALAKIT_INCH_CM 0
@@ -13,85 +12,73 @@
 using namespace std;
 
 /**
- * 1. Írjatok egy olyan függvényt, amely két paraméterként kapott egész szám közül visszatéríti a nagyobbat.
+ * 1. Ãrjatok egy olyan fÃ¼ggvÃ©nyt, amely kÃ©t paramÃ©terkÃ©nt kapott egÃ©sz szÃ¡m kÃ¶zÃ¼l visszatÃ©rÃ­ti a nagyobbat.
  */
-int maximum(int a, int b)
+void maximum()
 {
-    /// Implementációt ide
+    /// ImplementÃ¡ciÃ³t ide
     return 0;
 }
 
 /**
- * Egészítsétek ki a függvényt egy plusz paraméterrel, ami meghatározza, hogy a függvény a két érték közül
- * a nagyobbat vagy a kisebbet téríti vissza.
+ * EgÃ©szÃ­tsÃ©tek ki a fÃ¼ggvÃ©nyt egy plusz paramÃ©terrel, ami meghatÃ¡rozza, hogy a fÃ¼ggvÃ©ny a kÃ©t Ã©rtÃ©k kÃ¶zÃ¼l
+ * a nagyobbat vagy a kisebbet tÃ©rÃ­ti vissza.
  */
-int max_min(int a, int b, bool is_max)
+void max_min()
 {
-    /// Implementációt ide
-    return 0;
+    /// ImplementÃ¡ciÃ³t ide
 }
 
 /**
- * 2. Írjatok egy olyan függvényt, amely paraméterként megkapja egy téglalap hosszát és szélességét és
- * visszatéríti a téglalap kerületét. A hossz és a szélesség méterben van megadva és nem lehet több, mint 10000.
- * pld. Ha hossz=10 és szelesseg=4, akkor a visszatérítési érték 28.
+ * 2. Egy amerikai barÃ¡totoknak nagy szenvedÃ©lye a pillangÃ³gyÅ±jtÃ©s.
+ * Rendszeresen megmÃ©ri az Ã¡ltala megfogott pillangÃ³k szÃ¡rnyainak a szÃ©lessÃ©gÃ©t.
+ * SzeretnÃ©tek elemezni ezeket a mÃ©rÃ©seket, viszont a barÃ¡totok ezt mind hÃ¼velykben mÃ©rte,
+ * nektek centimÃ©terben kellenek a mÃ©rÃ©sek. Ãrjatok egy fÃ¼ggvÃ©nyt amely paramÃ©terkÃ©nt megkapja a mÃ©rÃ©seket
+ * Ã©s Ã¡talakÃ­tja ezeket hÃ¼velykbÅ‘l centimÃ©terbe!
  */
-unsigned int kerulet(unsigned int hossz, unsigned int szelesseg)
+void atalakit_inch_cm()
 {
-    /// Implementációt ide
-    return 0;
+    /// ImplementÃ¡ciÃ³t ide
 }
 
 /**
- * 3. Egy amerikai barátotoknak nagy szenvedélye a pillangógyûjtés.
- * Rendszeresen megméri az általa megfogott pillangók szárnyainak a szélességét.
- * Szeretnétek elemezni ezeket a méréseket, viszont a barátotok ezt mind hüvelykben mérte,
- * nektek centiméterben kellenek a mérések. Írjatok egy függvényt amely paraméterként megkapja a méréseket
- * és átalakítja ezeket hüvelykbõl centiméterbe!
- */
-void atalakit_inch_cm(float t[], int n)
-{
-    /// Implementációt ide
-}
-
-/**
- * 4. Egy szupermarket-lánc igazgatója megkérte a csapatotokat arra,
- * hogy írjatok neki egy programot amely számontartja, hogy naponta hány ember lép be a szupermarketbe.
- * Ugyanakkor minden tizedik belépõnek adjon 5 százalék kedvezményt.
- * Rátok maradt az az alfeladat, hogy egy olyan függvényt megírjatok,
- * ami az egy napi belépéseket követi és a kedvezményt kiszámolja.
+ * 3. Egy szupermarket-lÃ¡nc igazgatÃ³ja megkÃ©rte a csapatotokat arra,
+ * hogy Ã­rjatok neki egy programot amely szÃ¡montartja, hogy naponta hÃ¡ny ember lÃ©p be a szupermarketbe.
+ * Ugyanakkor minden tizedik belÃ©pÅ‘nek adjon 5 szÃ¡zalÃ©k kedvezmÃ©nyt.
+ * RÃ¡tok maradt az az alfeladat, hogy egy olyan fÃ¼ggvÃ©nyt megÃ­rjatok,
+ * ami az egy napi belÃ©pÃ©seket kÃ¶veti Ã©s a kedvezmÃ©nyt kiszÃ¡molja.
  */
 unsigned int belepesek = 0;
 unsigned int belep()
 {
-    /// Implementációt ide
+    /// ImplementÃ¡ciÃ³t ide
 }
 
 /**
- * 5. Írjatok egy olyan függvényt, amely a bemeneti egész számokat tartalmazó tömb elemei közül visszaadja
- * a legnagyobb elem értékét és indexét.
+ * 4. Ãrjatok egy olyan fÃ¼ggvÃ©nyt, amely a bemeneti egÃ©sz szÃ¡mokat tartalmazÃ³ tÃ¶mb elemei kÃ¶zÃ¼l visszaadja
+ * a legnagyobb elem Ã©rtÃ©kÃ©t Ã©s indexÃ©t.
  */
-void tomb_max(int t[], int n, int &max_val, int &max_idx)
+void tomb_max()
 {
-    /// Implementációt ide
+    /// ImplementÃ¡ciÃ³t ide
 }
 
 /**
- * 6. A suma alprogramnak két paramétere van:
- *    - n, amelyen keresztül egy természetes számot kap a [0, 10^9] intervallumból
- *    - s, amelyen keresztül visszaadja az egymástól különbözõ páratlan számjegyek összegét.
+ * 5. A suma alprogramnak kÃ©t paramÃ©tere van:
+ *    - n, amelyen keresztÃ¼l egy termÃ©szetes szÃ¡mot kap a [0, 10^9] intervallumbÃ³l
+ *    - s, amelyen keresztÃ¼l visszaadja az egymÃ¡stÃ³l kÃ¼lÃ¶nbÃ¶zÅ‘ pÃ¡ratlan szÃ¡mjegyek Ã¶sszegÃ©t.
  *
- * pld. ha n=4713835, akkor az alprogram hívása után s=16 (16=7+1+3+5), ha n=48, akkor s=0
+ * pld. ha n=4713835, akkor az alprogram hÃ­vÃ¡sa utÃ¡n s=16 (16=7+1+3+5), ha n=48, akkor s=0
  */
-void suma(unsigned int n, int &s)
+void suma()
 {
-    /// Implementációt ide
+    /// ImplementÃ¡ciÃ³t ide
 }
 
 
 
 /**
-    Ez a megjegyzés utáni kódot NEM szabad módosítani!
+    Ez a megjegyzÃ©s utÃ¡ni kÃ³dot NEM szabad mÃ³dosÃ­tani!
 */
 
 int passed = 0;
@@ -103,14 +90,6 @@ void display(bool condition, const char * message);
 
 int main()
 {
-#if(TEST_KERULET == 1 || TEST_ALL == 1)
-    /// Kerulet
-    cout << "--------------------Kerulet---------------------" << endl;
-    assert(28, kerulet(10, 4), "h=10, sz=4");
-    assert(40000, kerulet(10000, 10000), "h=10000, sz=10000");
-    assert(2052, kerulet(2, 1024), "h=2, sz=1024");
-
-#endif
 
 #if(TEST_MAXIMUM == 1 || TEST_ALL == 1)
     /// Maximum
@@ -208,7 +187,7 @@ void assert(int expected, int actual, const char * message)
 
 void assert(float expected, float actual, const char * message)
 {
-    const float EPSILON = 0.000000001;
+    const float EPSILON = 0.001;
     display((expected - EPSILON < actual) && (expected + EPSILON > actual), message);
 }
 
